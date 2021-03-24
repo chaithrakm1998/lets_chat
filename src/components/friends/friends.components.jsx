@@ -4,22 +4,20 @@ import {Link} from 'react-router-dom';
 import {Card} from 'react-bootstrap';
 
 
-const Friends = ({imageUrl,id}) => (
-
+const Friends =({ title, imageUrl,id}) => (
 
    
     <Card className="col-md-4">
         <Card.Img variant="top" src={imageUrl}/>
         <Card.Body>
-          
-            <Link to= {"detailspage/"+id} className="btn btn-primary">know more</Link>
+          <Card.Title>{title}</Card.Title>
+            <Link  to=  {"detailspage/"+id} className="btn btn-success text-center">Know More </Link>
             
         </Card.Body>
 
 
     </Card>
     
-
-    
-    )
+  
+);
 export default Friends;
