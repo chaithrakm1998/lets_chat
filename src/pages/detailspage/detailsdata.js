@@ -16,7 +16,7 @@ const FRIENDS_DATA = [
             father:"Lison",
             mother:"Linu",
             occupation:"Doctor",
-            imageUrl: 'https://st4.depositphotos.com/12982378/22072/i/600/depositphotos_220729084-stock-photo-smiling-adult-man-crossed-arms.jpg',
+            imageUrl: 'https://randomuser.me/api/portraits/med/men/42.jpg',
             },
             
       ]
@@ -37,7 +37,7 @@ const FRIENDS_DATA = [
             father:"Lison",
             mother:"Linu",
             occupation:"Doctor",
-            imageUrl: 'https://st4.depositphotos.com/12982378/22072/i/600/depositphotos_220729084-stock-photo-smiling-adult-man-crossed-arms.jpg',
+            imageUrl: 'https://randomuser.me/api/portraits/med/men/42.jpg',
             },
             
       ]
@@ -58,7 +58,7 @@ const FRIENDS_DATA = [
             father:"John",
             mother:"Karly",
             occupation:"Software Engineer",
-            imageUrl:'https://www.mobolize.com/wp/wp-content/uploads/2018/05/man-tablet-smiling-600x400.jpg',
+            imageUrl:'https://randomuser.me/api/portraits/med/men/25.jpg',
         },
             
       ]
@@ -78,7 +78,7 @@ const FRIENDS_DATA = [
             father:"John",
             mother:"Karly",
             occupation:"Mechanical Engineer",
-            imageUrl:'https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI',
+            imageUrl:'https://randomuser.me/api/portraits/med/women/12.jpg',
             },
             
       ]
@@ -100,7 +100,7 @@ const FRIENDS_DATA = [
            father:"Jian",
            mother:"Merrly",
            occupation:"Mechanical Engineer",
-           imageUrl:'https://cdn.pixabay.com/photo/2015/12/19/21/03/person-1100286_960_720.jpg'
+           imageUrl:'https://randomuser.me/api/portraits/med/women/4.jpg'
             },
             
       ]
@@ -122,7 +122,7 @@ const FRIENDS_DATA = [
            father:"Deyam",
            mother:"Merry",
            occupation:"Business Analyst",
-           imageUrl: 'https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?size=626&ext=jpg'
+           imageUrl: 'https://randomuser.me/api/portraits/med/women/20.jpg'
             },
             
       ]
@@ -144,7 +144,7 @@ const FRIENDS_DATA = [
              father:"Deyam",
            mother:"Merry",
            occupation:"Business Analyst",
-             imageUrl: 'https://img.freepik.com/free-photo/mand-holding-cup_1258-340.jpg?size=626&ext=jpg'
+             imageUrl: 'https://randomuser.me/api/portraits/med/women/53.jpg'
                 },
                 
         ]
@@ -165,7 +165,7 @@ const FRIENDS_DATA = [
               mother:"Merrly",
               occupation:"Mechanical Engineer",
              phone: "0366-3579098",
-             imageUrl:'https://img.freepik.com/free-photo/cheerful-businessman-enjoying-success_1262-16166.jpg?size=626&ext=jpg'
+             imageUrl:'https://randomuser.me/api/portraits/med/men/98.jpg'
             }
                 
         ]
@@ -188,7 +188,7 @@ const FRIENDS_DATA = [
                father:"Jian",
                mother:"Merrly",
                occupation:"Engineer",
-               imageUrl:'http://st.depositphotos.com/2931363/4881/i/450/depositphotos_48813801-Businessman-pointing-copy-space..jpg'
+               imageUrl:'https://randomuser.me/api/portraits/med/men/14.jpg'
                 }
                 
                 
@@ -212,7 +212,7 @@ const FRIENDS_DATA = [
                father:"Jian",
                mother:"Merrly",
                occupation:"Engineer",
-               imageUrl:'https://img.freepik.com/free-photo/indoor-shot-beautiful-happy-african-american-woman-smiling-cheerfully-keeping-her-arms-folded-relaxing-indoors-after-morning-lectures-university_273609-1270.jpg?size=626&ext=jpg&ga=GA1.2.1660430068.1601510400'
+               imageUrl:'https://randomuser.me/api/portraits/med/women/35.jpg'
                 },
                 
         ]
@@ -234,7 +234,7 @@ const FRIENDS_DATA = [
                 occupation:"Business Analyst",
                 
                phone: "076 561 25 98",
-               imageUrl:'https://image.freepik.com/free-photo/surprised-playful-touched-good-looking-african-american-woman-glasses-stylish-brown-t-shirt-clasping-hands-smiling-from-joy-excitement-liking-great-show_176420-23322.jpg'
+               imageUrl:'https://randomuser.me/api/portraits/med/women/44.jpg'
                 },
         ]
       },

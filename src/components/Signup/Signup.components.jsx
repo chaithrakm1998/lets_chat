@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import {Link} from 'react-router-dom';
+
 export default class SignUp extends Component {
     render() {
         return (
@@ -27,12 +29,19 @@ export default class SignUp extends Component {
                     <label>Password</label>
                     <input type="password" className="form-control" placeholder="Enter password"required/> 
                 </div>
-
-                <button type="submit" className="btn btn-primary btn-block">Sign Up</button>
                 <p className="forgot-password text-right">
                     Already registered <a href="/">sign in?</a>
                 </p>
-            </form>
+                </form>
+                <div classname='btn' align="center" >
+                <Link to='/homepage'>
+          <button 
+          type="button" 
+          class="btn btn-outline-primary mr-1">Sign in</button>
+                </Link>
+                
+            
+            </div>
             </div>
             </div>
         );

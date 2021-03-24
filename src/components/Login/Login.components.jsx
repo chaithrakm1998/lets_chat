@@ -42,18 +42,23 @@ export default class Login extends Component {
                     </div>
                 </div>
 
-                <Link to= '/homepage' className="btn btn-primary">Log In</Link>
+                
                 <p className="forgot-password text-right">
                     Don't have an account? <a href="/sign-up">Sign Up?</a>
                 </p>
-                <div className='buttons'>
-           
-            <button className="signin" onClick={signInWithGoogle} isGoogleSignIn>
-              Sign in with Google
-            </button>
-            <button className="signin" onClick={signInWithFacebook} isFacebookSignIn>
-              Sign in with Facebook
-            </button>
+                <div classname='btn' align="center" >
+                <Link to='/homepage'>
+          <button 
+          type="button" 
+          class="btn btn-outline-primary mr-1">Sign in</button>
+                </Link>
+                <Link to="/homepage">
+                <button type="button" class="btn btn-outline-primary mr-1" onClick={signInWithGoogle} isGoogleSignIn> Sign in with Google</button>
+                </Link>
+                
+                <Link to="/homepage">
+                <button type="button" class="btn btn-outline-primary mr-1" onClick={signInWithFacebook} isFacebookSignIn> Sign in with Facebook</button>
+                </Link>
       
           </div>
         </form>
